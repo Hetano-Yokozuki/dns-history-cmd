@@ -1,0 +1,84 @@
+    1  sudo yum -y install curl-devel expat-devel gettext-devel openssl-devel zlib-devel perl-ExtUtils-MakeMaker autoconf
+    2  curl https://www.kernel.org/pub/software/scm/git/git-2.9.5.tar.gz > git.tar.gz
+    3  tar xvzf git.tar.gz
+    4  cd g*
+    5  ls 
+    6  make configure
+    7  ./configure --prefix=/usr
+    8  yum install -y gcc
+    9  ./configure --prefix=/usr
+   10  make all
+   11  make install
+   12  git version
+   13  yum insatall -y bind
+   14  yum install -y bind
+   15  ls 
+   16  cd ../
+   17  ls 
+   18  rm git.tar.gz
+   19  ls 
+   20  cd ../
+   21  ls 
+   22  cd etc
+   23  ls 
+   24  more named
+   25  more named.conf
+   26  ls 
+   27  vi /etc/named.conf
+   28  vi /var/named/example.com.zone
+   29  vi /etc/hostname
+   30  sudo named-checkconf
+   31  init 6
+   32  nmtui
+   33  ping 8.8.8.8
+   34  ip a
+   35  sudo named-checkzone example.com /var/named/example.com.zone
+   36  sudo firewall-cmd --add-service=dns --permanent
+   37  sudo firewall-cmd --reload
+   38  sudo systemctl enable named
+   39  sudo systemctl start named
+   40  nmtui
+   41  ping dns.example.com
+   42  yum install -y bind-tools
+   43  yum install -y bind-utils
+   44  dig dns.example.com
+   45   cat /etc/resolv.conf
+   46  service network restart
+   47  dig dns.example.com
+   48  ls 
+   49  ssh-keygen -t rsa -C "k.shiraki789@gmail.com"
+   50  more /root/.ssh/id_rsa.pub
+   51  ls 
+   52  cd ../
+   53  ls 
+   54  cd etc
+   55  ls 
+   56  df
+   57  cd ../
+   58  df -h
+   59  cd etc
+   60  ll
+   61  ll -h
+   62  git init
+   63  git status
+   64  git add *
+   65  git commit -m "this is first time"
+   66  git remote add origin https://github.com/Hetano-Yokozuki/DNS.git
+   67  git push -u origin master
+   68  history
+   69  cd /var/named/
+   70  cd named
+   71  ls 
+   72  git init
+   73  git add *
+   74  git commit -m "named configuration"
+   75  git remote add origin https://github.com/Hetano-Yokozuki/named.git
+   76  git push origin master
+   77  pwd 
+   78  history
+   79  cd ~
+   80  pwd 
+   81  ls 
+   82  mkdir history
+   83  cd history
+   84  history > history.txt
