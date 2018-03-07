@@ -82,3 +82,24 @@
    82  mkdir history
    83  cd history
    84  history > history.txt
+   85  more hi*
+   86  git init 
+   87  git add *
+   88  git commit -m "history command"
+   89  git remote add origin https://github.com/Hetano-Yokozuki/dns-history-command.git
+   90  git push origin master
+   91  git remote delete https://github.com/Hetano-Yokozuki/dns-history-command.git
+   92  git remote remove https://github.com/Hetano-Yokozuki/dns-history-command.git
+   93  git remote add origin https://github.com/Hetano-Yokozuki/dns-history-cmd.git
+   94  git remote rename https://github.com/Hetano-Yokozuki/dns-history-command.git https://github.com/Hetano-Yokozuki/dns-history-cmd.git
+   95  cd .git
+   96  ls 
+   97  more config
+   98  cd ../
+   99  git remote -v
+  100  git remote rm *
+  101  git remote remove origin
+  102  git remote -v
+  103  git remote add origin https://github.com/Hetano-Yokozuki/dns-history-cmd.git
+  104  ll
+  105  history > history.txt
