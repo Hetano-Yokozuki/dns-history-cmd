@@ -103,3 +103,97 @@
   103  git remote add origin https://github.com/Hetano-Yokozuki/dns-history-cmd.git
   104  ll
   105  history > history.txt
+  106  more h*
+  107  git push origin master
+  108  tail his*
+  109  more history.txt
+  110  git add *
+  111  git commit -m "second"
+  112  git push origin master
+  113  hostname 
+  114  dig dns.example.com
+  115  init 0
+  116  ls 
+  117  cd /etc
+  118  ls 
+  119  more named
+  120  vi named.conf
+  121  cd /var/named
+  122  ls 
+  123  more e*
+  124  vi 192.168.64.rev
+  125  cd /etc
+  126  vi named.conf
+  127  sudo named-checkconf
+  128  sudo named-checkzone example.com /var/named/example.com.zone
+  129  sudo named-checkzone 64.168.192.in-addr.arpa /var/named/192.168.64.rev
+  130  vi named.conf
+  131  sudo named-checkzone 64.168.192.in-addr.arpa /var/named/192.168.64.rev
+  132  vi /var/named/192.168.64.rev
+  133  sudo systemctl stop named
+  134  sudo systemctl start named
+  135  systemctl status named.service
+  136  whereis 
+  137  whereis ls 
+  138  whereis 192.168.64.rev
+  139  ls 
+  140  ls | grep 192
+  141  cd named
+  142  ls 
+  143  cd ../
+  144  cd /var/named
+  145  ls
+  146  cd slaves
+  147  ls 
+  148  cd ../
+  149  cd data
+  150  ls 
+  151  cd ../
+  152  ls 
+  153  cd dynamic
+  154  ls 
+  155  cd ../
+  156  ls 
+  157  more 192.168.64.rev 
+  158  hostname 
+  159  vi 192.168.64.rev
+  160  ls 
+  161  rmls 
+  162  cd ../
+  163  ls 
+  164  cd /etc
+  165  ls 
+  166  cd named
+  167  ls 
+  168  ll
+  169  ls -al
+  170  vi named.conf
+  171  cd ../
+  172  ls 
+  173  vi named.conf
+  174  sudo named-checkzone 64.168.192.in-addr.arpa /var/named/192.168.64.rev
+  175  cd ../
+  176  ls 
+  177  cd var
+  178  ls 
+  179  cd named
+  180  ls 
+  181  vi 192*
+  182  sudo named-checkzone 64.168.192.in-addr.arpa /var/named/192.168.64.rev
+  183  sudo systemctl start named
+  184  ss andup
+  185  ss antup
+  186  ss -antup
+  187  dig -x 192.168.64.10
+  188  dig dns.example.com.
+  189  init 6
+  190  ip a
+  191  dig -x 192.168.64.10
+  192  pi
+  193  dig dns.example.com
+  194  ping dns.example.com
+  195  ls 
+  196  cd history
+  197  git push origin master
+  198  git add *
+  199  history > history.txt
